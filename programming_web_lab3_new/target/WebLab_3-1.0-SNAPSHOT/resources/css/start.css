@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    background: #AFA5A5;
+}
+.header {
+    background-color: #5f5858;
+    height: 110px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    min-width: 1100px;
+    background-size: contain;
+}
+
+.center {
+    display: flex;
+}
+
+.author {
+    max-width: 700px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    min-width: 350px;
+}
+
+.header .labName {
+    max-width: 1000px;
+    margin: auto;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    min-width: 300px;
+}
+
+.img_zone {
+    min-width: 300px;
+    text-align: center;
+    margin: auto 0;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+hr {
+    background: #353b48;
+    display: block;
+    margin: 5px;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+#line {
+    height: 2px;
+    background: #2187e7;
+}
+
+.main_content {
+    text-align: center;
+    min-height: 500px;
+
+}
+
+.main_content .content_row {
+    margin: 60px 0 50px 0;
+    display: inline-flex;
+    max-width: 1500px;
+}
+.clock{
+    color: #954B4B;
+    font-size: 25px;
+    line-height: 2;
+}
+a {
+    color: #954B4B;
+    margin: 60px 0 0 0;
+}
+
+a:hover {
+    color: #952A00;
+}
+#area{
+    margin: auto;
+    text-align: center;
+}

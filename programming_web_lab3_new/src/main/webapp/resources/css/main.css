@@ -1,0 +1,222 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #5f5858;
+    height: 110px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    min-width: 1100px;
+    background-size: contain;
+}
+.center{
+    display: flex;
+}
+.author{
+    max-width: 700px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: Arial,sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    min-width: 350px;
+}
+.header .labName{
+    max-width: 1000px;
+    margin: auto;
+    font-family:Verdana,sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    min-width: 300px;
+}
+
+.img_zone {
+    min-width: 300px;
+    text-align: center;
+    margin: auto 0;
+}
+img{
+    height: auto;
+    width: 250px;
+}
+hr{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+#line{
+    height: 2px;
+    background: #2187e7;
+    width: 80%;
+}
+.background{
+    background-color: #AFA5A5;
+    min-height: 100%;
+    text-align: center;
+}
+a {
+    color: #954B4B;
+    margin: 60px 0 60px 0;
+}
+
+a:hover {
+    color: #952A00;
+}
+.panel{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    max-width: 1500px
+}
+.panel > .img_frame{
+    max-width: 600px;
+    min-width: 400px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 30%;
+    height: 400px;
+}
+.img_frame .canvas_container{
+    margin: 10px;
+    padding: 15px;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    background-color: rgba(205, 205, 205, 0.85);;
+    border: 3px solid #AFA5A5;
+}
+.panel > .input_values{
+
+    max-width: 800px;
+    min-width: 400px;
+    margin: 50px;
+    width: 40%;
+    height: 350px;
+    border-radius: 20px;
+    border: 3px solid #AFA5A5;
+    background-color: rgba(205, 205, 205, 0.85);
+}
+.panel > .result_table{
+    max-width: 800px;
+    min-width: 400px;
+    margin: 400px;
+    width: 30%;
+    height: 300px;
+    border: 3px solid #AFA5A5;
+    overflow: auto;
+
+}
+.result_table table{
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(205, 205, 205, 0.85);
+}
+.result_table tr,td{
+    border: 3px solid #AFA5A5;
+    color: #954B4B;
+    text-align: center;
+    height: 15px;
+}
+h4,label{
+    color: #954b4b;
+}
+.coorX,.y_zone, .coorR{
+    height: 80px;
+    width: 100%;
+}
+.ui-slider{
+    margin: auto;
+    width: 50%;
+}
+.r_buttons{
+    margin: 10px;
+    width: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background: #954B4B;
+    border:2px solid #ACACAC;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #E6E6E6;
+    outline: none;
+}
+.coorY{
+    margin: 10px;
+    background: none;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 5px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+
+}
+.coorY:focus{
+    width: 270px;
+    border-color: #2ecc71;
+}
+.coorY::placeholder{
+    color: #954b4b;
+}
+.send_button{
+    width: 200px;
+    background: #954B4B;
+    border:2px solid #ACACAC;
+    padding: 5px 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #E6E6E6;
+    outline: none;
+}
+.link{
+    text-align: center;
+}
+.send_form{
+    padding: 0;
+    align-content: center !important;
+}
+.selR {
+    background-color: #8AC6ED ;
+    color: white ;
+    box-shadow: 2px 2px 0 #3498db;
+}
+.send_form .input_err {
+    background-color: #E40045;
+    border-color: #94002D;
+    box-shadow: 0 4px 4px #94002D;
+
+}
+.graphic {
+    background: #B2DFDB;
+}
+.graphic .rectangle {
+    stroke: navy;
+    fill-opacity: 0.4;
+    fill: navy;
+}
+.graphic .triangle {
+    stroke: red;
+    fill-opacity: 0.4;
+    fill: red;
+}
+.graphic .quarter {
+    stroke: green;
+    fill-opacity: 0.4;
+    fill: green;
+}
+.graphic svg {
+    height: 300px;
+    width: 300px;
+}
